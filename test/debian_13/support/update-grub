@@ -1,0 +1,9 @@
+#!/bin/sh
+#
+# Stands in for update-grub inside the test container, where there is no
+# disk to probe and no /boot/grub to write. Records the call so a test can
+# assert the scripts invoked it.
+
+echo "update-grub called" >> /tmp/update-grub.calls
+
+echo "Generating grub configuration file ... (stub)"

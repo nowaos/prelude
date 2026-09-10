@@ -2,6 +2,10 @@
 
 A minimalist GRUB2 theme.
 
+<div style="margin: 0 auto">
+  <img src="assets/preview.png" />
+</div>
+
 ## Scripts
 
 Install:
